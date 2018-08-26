@@ -4,9 +4,9 @@ Proton can run plenty of games, but not all of them. Here's a list of the games 
 
 (Pro tip: Want to search for a game? Press CTRL+F and then type the name of your game to automatically search through the list!)
 
-Game / App | Proton Version | Linux Version | Test Date (YYYY-MM-DD) | Working? | Notes | System Information
+Game / App | Proton Version | Distro/Version | Test&nbsp;Date | Runs? | Notes | System Info
 --------------|------------------|----------------|-------------|-----------|--------|-----------------------
-$1 Ride | 3.7 | Arch 4.18.4 /w Flatpak | 2018-08-24 | No | Crashes on startup. | i7-3770, 16GB RAM, GTX 570
+$1 Ride | 3.7 | Arch 4.18.4 /w Flatpak | <nobr>2018-08-24</nobr> | No | Crashes on startup. | i7-3770, 16GB RAM, GTX 570
 3DMark | 3.7 | Arch 4.18.4 /w Flatpak | 2018-08-24 | No | Stuck on loading screen. | i7-3770, 16GB RAM, GTX 570
 7 Grand Steps: What Ancients Begat | 3.7 | Ubuntu 18.04.1 4.18.4-041804-generic | 2018-08-23 | Yes | Perfect | Ryzen 5 1600, RX 580, 8 GB RAM
 7 Wonders II | 3.7 | Arch 4.18.4 /w Flatpak | 2018-08-24 | Yes | Perfect. | i7-3770, 16GB RAM, GTX 570
@@ -31,7 +31,7 @@ Assassin's Creed IV: Black Flag | 3.7 |Ubuntu MATE 18.04 | 2018-08-24 | No | Can
 Assetto Corsa | Proton 3.7 | Arch LInux 4.18.4 | 2018-08-25 | No | Doesn't start | AMD Ryzen 7 1700x, AMD Radeon RX580 8Gb, 16Gb RAM
 Astebreed: Definitive Edition | 3.7 | Debian 9 | 2018-08-25 | Yes | Disable multimonitors to run fullscreen | i7-4770, 16GB RAM, R9 290X
 Astroneer | 3.7 | Arch | 2018-08-23 | Yes | Works perfectly | Ryzen 1800X, Vega 56
-A Hat in Time | 3.7 | Linux Mint (19) / Arch | 2018-08-23 | Yes/Almost | Occasionally stutters, but seems very playable / Stutter is almost playable | rx460, i5-6400 / i5 3570k, GTX 770
+A Hat in Time | 3.7 | Linux Mint (19) / Arch | 2018-08-23 | Yes | Occasionally stutters, but seems very playable / Stutter is almost playable | rx460, i5-6400 / i5 3570k, GTX 770
 Audiosurf | 3.7 | Arch Linux | 2018-08-22 | No | Crashes on startup | 
 Audiosurf | 3.7 | Ubuntu 18.04 | 2018-08-22 | No | Crashes on startup | 
 Awesomenauts | Proton 3.7 | Arch Linux 4.18.4 | 2018-08-25 | Yes | Runs perfect - online works, might not detect 2560x1440 resolution. run in windowed at 1920x1080 | AMD Ryzen 7 1700x, AMD Radeon RX580 8Gb, 16Gb RAM
@@ -107,7 +107,7 @@ Dark Souls III | 3.7 | Arch Linux (OpenBox) | 2018-08-23 | Yes | Doesn't always 
 Darwin Project | 3.7 | Ubuntu | 2018-08-23 | Yes | Perfect | Ryzen 1800x, Vega 64, 16gb
 DCS World | 3.7 | Manjaro (XFCE) | 2018-08-23 | No | Does not launch | Ryzen 5 1600X, GTX970, 16GB RAM
 Dark Void Zero | 3.7 | Ubuntu 18.04 | 2018-08-22 | Yes | Had to restart Steam after the initial setup, works fine. |
-Death Skid Marks | 3.7 | Gentoo Linux | 2018-08-23 | Yes | Requires setting `dmusic32` and `dsound` dll overrides in `WINEPREFIX=/path_to_steamlib/steamapps/compatdata/326150/pfx WINEARCH=win64 winecfg` to `Disabled`, otherwise sound effects will not work | i7-6700HQ, GTX 950M, 16GB RAM
+Death Skid Marks | 3.7 | Gentoo Linux | 2018-08-23 | Yes | Requires setting `dmusic32` and `dsound` dll overrides in `winecfg` to `Disabled`, otherwise sound effects will not work | i7-6700HQ, GTX 950M, 16GB RAM
 Deceit | 3.7 | Ubuntu 18.04 | 2018-08-25 | Yes | Works fine. Voice chat not tested | AMD FX-8350, GTX 660, 12GB RAM
 Defiance | Proton 3.7 | Arch LInux 4.18.4 | 2018-08-25 | No | Doesn't start | AMD Ryzen 7 1700x, AMD Radeon RX580 8Gb, 16Gb RAM
 Deus Ex: GOTY Edition | 3.7 | Arch | 2018-08-23 | Partial | No sound | Ryzen 1800X, Vega 56
@@ -170,7 +170,7 @@ Ghost Recon: Wildlands | 3.7 | Kubuntu 18.04 | 2018-08-23 | No | Crashes when tr
 神明的一天世界(God's One Day World) | 3.7 | Artix 4.18.3 | 2018-08-24 | Yes | Crashes when toggled to fullscreen, then no longer starts until savedata is cleared |
 Grim Dawn | 3.7 | Ubuntu 18.04 | 2018-08-23 | Yes | Almost perfect, starting a new character doesn't allow class pick and ashes classes are missing | i5-4460, RX 460, Mesa 18.3.0 Dev
 Grand Theft Auto III | 3.7 | Arch Linux | 2018-08-23 | No | Unable to save any game, runs smoothly otherwise | i7-860, GTX 760, 10GB RAM
- | 3.7 | Gentoo Linux | 2018-08-25 | Yes | Saving and loading games works. Startup with a black/transparent screen where the intro movies are supposed to be, skippable with `Return` key. Framedrops to single-digit framerates with Trails-option turned on or whenever it rains. Widescreen fix doesn't work OOTB, d3d8.dll needs to be overridden using `WINEPREFIX=/home/<user>/.local/share/Steam/steamapps/compatdata/12100/pfx winecfg`. | i7-4790k, GTX 980, 16GB RAM
+Grand Theft Auto III | 3.7 | Gentoo Linux | 2018-08-25 | Yes | Saving and loading games works. Startup with a black/transparent screen where the intro movies are supposed to be, skippable with `Return` key. Framedrops to single-digit framerates with Trails-option turned on or whenever it rains. Widescreen fix doesn't work OOTB, d3d8.dll needs to be overridden using `winecfg`. | i7-4790k, GTX 980, 16GB RAM
 Grand Theft Auto Vice City | 3.7 | Ubuntu 18.04 | 2018-08-24 | Yes | Works out of the box, intro video won't play, can't get past by pressing any key. Don't turn off frame limiter or game fails to load on cut sceens. Played for a couple of hours, no problems other than frame limiter.  | i5-7600, GTX 1080, 16GB RAM
 Grand Theft Auto: San Andreas | 3.7 | Arch | 2018-08-23 | Yes | Just Works  | i5-4570, RX 480, 16GB RAM, game on BTRFS
 Grand Theft Auto IV | 3.7 | Arch Linux | 2018-08-23 | No | Won't run past Game For Windows Live | i7-860, GTX 760, 10GB RAM
@@ -182,7 +182,7 @@ Gurumin: A Monstrous Adventure | 3.7 | Linux Mint 19 | 2018-08-23 | Yes | Works,
 Hack, Slash, Loot | 3.7 | Arch Linux (kernel 4.18.4) | 2018-08-24 | Yes | Works Perfectly | i7 3770, GTX 660 2GB, 16GB RAM
 Half Minute Hero: Super Mega Neo Climax Ultimate boy | 3.7 | Arch Linux (kernel 4.18.4) | 2018-08-24 | Partial | Resolution problems, Starts windowed without border, alt+enter makes the screen go black, suffers from random freezes | i7 3770, GTX 660 2GB, 16GB RAM
 Helldivers | 3.7 | Ubuntu 18.04 | 2018-08-24 | No | Can't connect to server, local game crashes when accessing mission map.
-HellDivers | Arch LInux 4.18.4 | 2018-08-25 | Yes | Runs perfect, high shader settings 60fps; online works too| AMD Ryzen 7 1700x, AMD Radeon RX580 8Gb, 16Gb RAM
+HellDivers | 3.7 | Arch LInux 4.18.4 | 2018-08-25 | Yes | Runs perfect, high shader settings 60fps; online works too| AMD Ryzen 7 1700x, AMD Radeon RX580 8Gb, 16Gb RAM
 Heroes of Might & Magic III - HD Edition | 3.7 | Kubuntu 18.04 4.15.0-33-generic | 2018-08-23 | Yes | Only singleplayer tested. Everything works. | 
 Heat Signature | 3.7 | Ubuntu 18.04.1 LTS | 2018-08-23 | Yes | Works perfectly | GTX 1050 Ti Mobile
 Hitman: Codename 47 | 3.7 | Debian Testing | 2018-08-25 | Yes | Seems to work fine. Had to use KDE window manager to fix a fullscreen issue. | i5-4590, GTX-960, 8GB RAM
@@ -199,7 +199,7 @@ Just Cause 2 | 3.7 | Slackware -current | 2018-08-25 | No | Game doesn't load.  
 Just Cause 3 | 3.7 | Ubuntu 18.04 | 2018-08-24 | No | Game never loads after pressing play on steam. Say Running, then stops and says Syncing | i5 6600, GTX 960 2GB (Nvidia-396.54), 16GB RAM
 Kamui | 3.7 | Debian 9 | 2018-08-25 | Yes | Seems to only run in windowed mode. Running config.exe is unreadable | i7-4770, 16GB RAM, R9 290X
 Khimera: Destroy All Monster Girls | 3.7 | Kubuntu 18.04 | 2018-08-24 | Yes | Flawless | Intel Core I5-2520M, 4GB RAM, Intel HD 300
-KHOLAT | Arch Linux 4.18.4 | 2018-08-25 | Yes | Runs perfect, high settings 60fps | AMD Ryzen 7 1700x, AMD Radeon RX580 8Gb, 16Gb RAM
+KHOLAT | 3.7 | Arch Linux 4.18.4 | 2018-08-25 | Yes | Runs perfect, high settings 60fps | AMD Ryzen 7 1700x, AMD Radeon RX580 8Gb, 16Gb RAM
 Killing Floor 2 | 3.7 | Ubuntu Mate 18.04 | 2018-08-23 | Yes | | R9 290x, i5 2500k, 16GB RAM
 Killing Floor 2 | 3.7 | Arch Linux (kernel  4.18.4) | 2018-08-24 | Partial | prone to random crashes, inventory and store don't work, poor performance (playable on low settings) | i7 3770, GTX 660 2GB (Nvidia-396.54), 16GB RAM
 Killing Floor 2 | 3.7 | Ubuntu 18.04 | 2018-08-25 | Yes | Works very well on high settings, occasional frame drops. Perks progress is not saved and is not carried across from Steam Cloud | i5 2500k, R9 380 4GB, 8GB RAM
@@ -286,7 +286,7 @@ RollerCoaster Tycoon 2: Triple Thrill Pack | 3.7 | MX Linux 17 | 2018-08-23 | Ye
 RollerCoaster Tycoon 3: Platinum! | 3.7 | Ubuntu 18.04.1 | 2018-08-24 | Yes | Game runs fine, no music, other sound works | i7-2600k, GTX 960, 8GB RAM
 Rollers of the Realm | 3.7 | Ubuntu 18.04 | 2018-08-23 | Yes | Works great | Intel i5-4690k, Nvidia GTX 970
 Rome Total war (1) | 3.7 | Kubuntu 18.04 | 2018-08-24 | Yes | Generally works well. Played a few turns fine with a few battles and worked fine. Crashes when changing settings in start menu and randomly during campaign. I think this might be the same as the games compatibility issue with windows  | i5-4200M, Geforce 7400M, 6GB RAM
-Rome: Total War | 3.7 | Arch Linux (Linux-ck 4.17.11-6; with AMDGPU 18.0.1 and mesa 18.1.6 | 2018-08-24 | Yes/Partially | First it run, but cursor became laggy and unresponsive, then I started it with -ne appended in launch options, and it worked until it hanged while returning from battlefield view back to map view, currently works without -ne appended | AMD A6-3650 with Radeon R9 270X graphics and 8GB RAM
+Rome: Total War | 3.7 | Arch Linux (Linux-ck 4.17.11-6; with AMDGPU 18.0.1 and mesa 18.1.6 | 2018-08-24 | Partial | First it run, but cursor became laggy and unresponsive, then I started it with -ne appended in launch options, and it worked until it hanged while returning from battlefield view back to map view, currently works without -ne appended | AMD A6-3650 with Radeon R9 270X graphics and 8GB RAM
 The Room Two | 3.7 | Arch Linux (Rolling release 2018-08-23) | 2018-08-23 | Yes |  | Alienware Steam Machine (i3-4170T / GTX 860M / 8GB RAM)
 S.T.A.L.K.E.R.: Call of Pripyat | 3.7 | Manjaro (XFCE) |  2018-08-23 | Yes | Some frame dips | Ryzen 5 1600X, GTX970, 16GB RAM
 S.T.A.L.K.E.R.: Clear Sky | 3.7 | Arch Linux (kernel 4.18.4) | 2018-08-24 | Yes | works perfectly | i7-3770, GTX660 2GB, 16GB RAM
@@ -312,7 +312,7 @@ Sonic Adventure 2 | 3.7 | Arch Linux | 2018-08-23 | No | Won't run | i7-860, GTX
 Sonic Generations | 3.7 | Ubuntu 18.04 | 2018-08-25 | Yes | Loads and runs, graphics at 60FPS at 1080p and max settings in Config Tool. Audio, beyond the "SEGA" chorus, doesn't work, just clicking. Xbox One controller not detected, even when mapped to keyboard in Steam's Controller Config. Doesn't cleanly exit. | i5-7300HQ, GTX 1060 16GB RAM |
 Sonic Generations | 3.7 | Debian Testing | 2018-08-25 | Yes | No Audio except for "SEGA" intro, crashes on exit. Tested with steam controller (controller detected) | i5-4590, GTX-960, 8GB RAM
 Sonic Mania (Plus) | 3.7 | Arch Linux (XFCE) (Kernel: 4.18.3-arch1-1-ARCH) | 2018-08-22 | Yes | No issues | i5 6600k, 16GB RAM, GTX 970
-Sonic Mania (Plus) | 3.7 | Arch Linux (Kernel: 4.18.3-arch1-1-ARCH) | 2018-08-24 | Yes | Works when run from `steam-runtime`. Does not work in `steam-native`: Game asks to check internet connection and retry. On pressing 'Next', game crashes with `Unhandled exception: page fault on write access to 0x006100a5 in 32-bit code (0x0052006b).` error | i5-6200U (HD 520), 16GB RAM
+Sonic Mania (Plus) | 3.7 | Arch Linux (Kernel: 4.18.3-arch1-1-ARCH) | 2018-08-24 | Yes | Works when run from `steam-runtime`. Does not work in `steam-native`: Game asks to check internet connection and retry. On pressing 'Next', game crashes with _Unhandled exception: page fault on write access to 0x006100a5 in 32-bit code (0x0052006b)._ error | i5-6200U (HD 520), 16GB RAM
 Source Filmmaker | 3.7 | Arch Linux / i3wm / Mesa 18.3.xx (git) | 2018-08-23 | Yes | Requires `winetricks corefonts` for better font readability | i7 4770, Vega 56, 12Gb RAM 
 South Park: The Fractured But Whole | 3.7 | Ubuntu MATE 18.04 | 2018-08-23 | No | Can't log into Uplay | AMD FX4100 GTX 750ti
 South Park: The Stick of Truth | 3.7 | Ubuntu 16.04 | 2018-08-23 | Yes | Works Fine | i3-3217U GeForce 710M
@@ -337,7 +337,7 @@ The Elder Scrolls: Legends | 3.7 | Manjaro GNU/Linux (XFCE) | 2018-08-23 | Yes |
 The Elder Scrolls III: Morrowind | 3.7-3 | Ubuntu 18.04.1 4.18.4-041804-generic | 2018-08-25 | Yes | Perfect | Ryzen 5 1600, RX 580, 8 GB RAM
 The Elder Scrolls IV: Oblivion | 3.7 | Ubuntu MATE 18.04 | 2018-08-23 | Yes | Works perfectly | AMD FX4100 GTX 750ti
 The Elder Scrolls V: Skyrim | 3.7 | Linux Mint 19 | 2018-08-22 | Yes | I do have some mods installed as well as the high resolution texture pack which is likely affecting the performance. on ultra it has occasional frame dips when entering a new area, but is mostly a solid 75. | i5 6500, GTX1060, 16GB RAM
-The Elder Scrolls V: Skyrim Special Edition | 3.7 | Gentoo Linux | 2018-08-23 | Yes | Requires installation of xact through `WINEPREFIX=/path_to_steamlib/steamapps/compatdata/489830/pfx WINEARCH=win64 winetricks xact` in order to get sound working properly [NOTE: This may [cause game crashes](https://bugs.winehq.org/show_bug.cgi?id=41618) or simply [not work](https://github.com/Winetricks/winetricks/commit/f2b3d268d941120d13b4c3c3960b78a879d37761) depending on your system and wintetricks version.]| i7-6700HQ, GTX 950M, 16GB RAM
+The Elder Scrolls V: Skyrim Special Edition | 3.7 | Gentoo Linux | 2018-08-23 | Yes | Requires installation of xact through `winetricks xact` in order to get sound working properly [NOTE: This may [cause game crashes](https://bugs.winehq.org/show_bug.cgi?id=41618) or simply [not work](https://github.com/Winetricks/winetricks/commit/f2b3d268d941120d13b4c3c3960b78a879d37761) depending on your system and wintetricks version.]| i7-6700HQ, GTX 950M, 16GB RAM
 The Forest | 3.7 | Arch Linux | 2018-08-24 | Yes | 1440p Ultra Settings Silky Smooth, Crashes when exiting the game, though | i7 2600K, 16 GB RAM, 1080 Ti
 The Incredible Adventures of Van Helsing | 3.7 | Kubuntu 18.04 | 2018-05-25 | Yes | Only singleplayer tested, a little slower than native but works good. | Intel i-7, AMD RX 580(Mesa), 16GB RAM
 The Lord of the Rings Online | 3.7 | Slackware -current | 2018-08-25 | Yes | Need to run in D3D9 mode, crashes in D3D11. | Intel Pentium G3258, GTX 950, 32 GB Ram
@@ -354,7 +354,7 @@ Tomb Raider II | 3.7 | Fedora 28 | 2018-08-23 | Yes | Boots and runs fine|
 Torchlight | 3.7 | Ubuntu 18.04 64-bit | 2018-08-23 | Yes | Sound fixed in 2018-08-23 game update. |
 Torchlight | 3.7 | Arch Linux | 2018-08-23 | Yes | Runs like native| EVGA 950, i7-4930k
 Totally Accurate Battlegrounds | 3.7 | Ubuntu 18.04 | 2018-08-04 | No | First run fails to install EQU8 Agent, hangs. | i5 6600, GTX 960 (Nvidia-396.54), 16GB RAM
-To the Core | Arch Linux 4.18.4 | 2018-08-25 | Yes | Works perfectly, high settings around 60fps 2560x1440 | AMD Ryzen 7 1700x, AMD Radeon RX580 8Gb, 16Gb RAM
+To the Core | 3.7 | Arch Linux 4.18.4 | 2018-08-25 | Yes | Works perfectly, high settings around 60fps 2560x1440 | AMD Ryzen 7 1700x, AMD Radeon RX580 8Gb, 16Gb RAM
 Touhou Luna Nights | 3.7 | Ubuntu Budgie 18.04 | 2018-08-24 | Yes | Perfect | i7-3770k, 16GB RAM, GTX 980 
 TouHou Makuka Sai ~ Fantastic Danmaku Festival | 3.7 | Arch Linux /w Flatpak(Linux 4.18.3-zen1-2-zen) | 2018-08-25 | No | Game didn't start, maybe because the game need to run in win32 WineArch  | i7-5550U, Geforce 840M, 8GB RAM
 Tower Unite | 3.7 | Arch Linux | 2018-08-23 | No | The existing but emmpty linux depot makes it impossible to download the linux version of the game. | Ryzen 3 1200, GTX 1060 6GB, 16GB RAM
@@ -388,4 +388,4 @@ You Don't Know Jack Vol. 1 XL | 3.7 | Mint 18.1 | 2018-08-23 | Yes | Can't use S
 Ys: Memories of Celceta | 3.7 | Linux Mint 19 | 2018-08-23 | No | Config tool works, game crashes on startup | i7-5820K, GTX 980Ti, 32 GB RAM
 Ys Seven | 3.7 | Linux Mint 19 | 2018-08-23 | Yes | Works perfectly | i7-5820K, GTX 980Ti, 32 GB RAM
 Zeno Clash | 3.7 | Arch Linux (kernel 4.18.4) | 2018-08-24 | Yes | Works Perfectly | i7-3770, GTX 660 2GB, 16GB RAM
-東方天空璋 ～ Hidden Star in Four Seasons | 3.7 | Arch Linux /w Flatpak(Linux 4.18.3-zen1-2-zen) | 2018-08-25 | Yes | Perfect | i7-5550U, Geforce 840M, 8GB RAM
+<nobr>東方天空璋 ～ Hidden Star in Four Seasons</nobr> | 3.7 | Arch Linux /w Flatpak(Linux 4.18.3-zen1-2-zen) | 2018-08-25 | Yes | Perfect | i7-5550U, Geforce 840M, 8GB RAM
